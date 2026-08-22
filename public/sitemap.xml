@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/blog/about/</loc>
+    <lastmod>2026-08-23T03:47:17+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2026-08-23T03:47:17+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/posts/my-second-writeup/</loc>
     <lastmod>2026-08-23T03:07:27+05:30</lastmod>
   </url><url>
@@ -9,9 +15,6 @@
     <lastmod>2026-08-23T03:07:27+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/posts/</loc>
-    <lastmod>2026-08-23T03:07:27+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2026-08-23T03:07:27+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/</loc>
