@@ -23,16 +23,18 @@ paginate = 5
   [languages.en]
     languageName = "English"
     title = "Sahil's Terminal Blog"
-    subtitle = "Cybersecurity research & writeups"
-    keywords = ""
-    copyright = ""
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    menuMore = "Show more"
 
-    [languages.en.params.logo]
-      logoText = "blog@sahilmir18:~$"
-      logoHomeLink = "/blog/"
+    [languages.en.params]
+      subtitle = "Cybersecurity research & writeups"
+      keywords = ""
+      copyright = ""
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      menuMore = "Show more"
+
+      [languages.en.params.logo]
+        logoText = "blog@sahilmir18:~$"
+        logoHomeLink = "/blog/"
 
     [languages.en.menu]
       [[languages.en.menu.main]]

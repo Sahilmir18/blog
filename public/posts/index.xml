@@ -10,15 +10,22 @@
 		
 		
 		
-			<lastBuildDate>Sat, 22 Aug 2026 21:59:27 +0530</lastBuildDate>
+			<lastBuildDate>Sun, 23 Aug 2026 03:07:27 +0530</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/blog/posts/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Bypassing X:A Walkthrough</title>
+				<title>Bypassing XSS:A Walkthrough</title>
+				<link>http://localhost:1313/blog/posts/my-second-writeup/</link>
+				<pubDate>Sun, 23 Aug 2026 03:07:27 +0530</pubDate>
+				<guid>http://localhost:1313/blog/posts/my-second-writeup/</guid>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;XSS is a hgiadasd&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Bypassing SSRF:A Walkthrough</title>
 				<link>http://localhost:1313/blog/posts/my-first-writeup/</link>
 				<pubDate>Sat, 22 Aug 2026 21:59:27 +0530</pubDate>
 				<guid>http://localhost:1313/blog/posts/my-first-writeup/</guid>
-				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Short summary of what this writeup covers.&lt;/p&gt;&#xA;&lt;h2 id=&#34;steps&#34;&gt;Steps&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Recon&lt;/li&gt;&#xA;&lt;li&gt;Exploitation&lt;/li&gt;&#xA;&lt;li&gt;Post-exploitation&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;nmap -sv -p- target.com&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;takeaways&#34;&gt;Takeaways&lt;/h2&gt;&#xA;&lt;p&gt;What you learned, mitigations, refreneces.&lt;/p&gt;</description>
+				<description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;How to get SSRF?&#xA;SSRF is a vulnerability that tricks the server to making a request to the other website whether its internal or external. Because the request comes from a server the receiver trusts it and makes the data accessible without authentication Because the server is making the request.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>
