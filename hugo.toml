@@ -9,7 +9,7 @@ paginate = 5
   # folder under content/ that holds your posts
   contentTypeName = "posts"
   # theme accent color: orange | blue | red | green | pink
-  themeColor = "green"
+  themeColor = "blue"
   # show intro text on homepage instead of just post list
   showMenuItems = 2
   fullWidthTheme = false
